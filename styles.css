@@ -1,0 +1,58 @@
+h2{
+    color: #ffff;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    /* background: #555555; */
+    
+  }
+
+  .form {
+    background-color: #555555;
+  }
+  .container {
+
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #555555;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  h2 {
+    text-align: center;
+  }
+  label, input, select {
+    margin-bottom: 15px;
+  }
+  input[type="text"], input[type="email"], input[type="tel"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  input[type="radio"] {
+    margin-right: 10px;
+  }
+
+
+  .btn {
+    background-color: #3498db;
+    color: #fff;
+    border: 2px solid gray;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    
+  }
